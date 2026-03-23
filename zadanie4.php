@@ -9,7 +9,7 @@
 $blad = "";
 $polaczenie = new mysqli("localhost","root","","pracownicy");
 if($polaczenie->connect_error) {
-	die("błąd połaczenia");
+	die("błąd połaczeniaa");
 }
  
  $dane= ["Id"=>"","Imie"=>"","Nazwisko"=>"","Stanowisko"=>""];
